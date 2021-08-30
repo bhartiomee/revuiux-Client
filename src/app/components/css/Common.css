@@ -1,0 +1,162 @@
+/* start of detailed-header */
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 12px 4px 0 20px;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.what-is-it-for{
+  height: 8rem;
+  resize: none;
+  width: 80%;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 6px;
+  padding: 0.5rem;
+  outline: none;
+}
+.brand-wrapper {
+  display: flex;
+  cursor: pointer;
+}
+
+.brand-name > h2 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-detail-wrapper {
+  padding-top: 5px;
+  display: flex;
+
+  background-color: white;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.user-detail-wrapper > h5 {
+  font-weight: 300;
+  color: #c471ed;
+}
+
+.profile-wrapper {
+  width: 50px;
+}
+
+.user-detail-wrapper > .MuiSvgIcon-root {
+  color: #c471ed;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 32px;
+  margin-top: -5px;
+}
+
+.logout-button > .MuiSvgIcon-root {
+  color: #c471ed;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 32px;
+  margin-top: -5px;
+}
+
+/* end of detailed-header */
+
+/* Start of input field */
+
+.input-wrapper {
+  margin: 10px 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  outline: none;
+}
+
+.input-gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20vw;
+  height: 5vh;
+}
+
+.default-label {
+  margin-right: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: right;
+  width: 12vw;
+}
+
+.forgot-password > p {
+  color: #d02602;
+  font-size: 14px;
+  height: 12px;
+}
+
+.form-error-message {
+  color: #d02602;
+  font-size: 14px;
+}
+
+.forgot-password {
+  width: 100%;
+}
+
+.has-error {
+  border: 1px solid #d02602 !important;
+}
+
+.lable-input-wrapper {
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+.form-div .form-error-message {
+  text-align: right;
+}
+
+.form-div textarea {
+  resize: none;
+}
+
+.form-div {
+  padding: 1rem;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-main {
+  flex: 1;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+/* End of input field */
+
+/* image card */
+
+.card-image{
+  height:9rem;
+  border-radius: 10px 10px 0 0;
+  background-color: grey;
+}
+.card-image > img{
+  border-radius: 10px 10px 0 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

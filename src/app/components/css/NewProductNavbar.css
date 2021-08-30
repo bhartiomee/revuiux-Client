@@ -1,0 +1,22 @@
+.menu-list {
+  text-decoration: none;
+  color: #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0px 7px 6.5px 6.5px;
+}
+
+.product-navbar{
+  height: 40px;
+}
+
+.menu-list>select{
+  outline: none;
+}
+
+.active-class {
+  color: #12c2e9;
+  border-bottom: 1px solid #12c2e9;
+}

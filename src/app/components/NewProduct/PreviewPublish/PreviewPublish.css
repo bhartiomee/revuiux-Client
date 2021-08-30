@@ -1,0 +1,65 @@
+.outerMostDivPP {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vh;
+}
+.display-block {
+  display: flex;
+}
+.display-blur {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.lowerDivPP {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.firstColumnPP {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1%;
+}
+.firstColumnPP > p {
+  margin: 0;
+  padding: 0;
+}
+
+.firstColumnPP > input {
+  margin: 5px 10px 5px 5px;
+  outline: none;
+}
+
+.buttonsPP {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 22.35vw;
+}
+
+.checkBoxesPP {
+  width: 15px;
+  height: 15px;
+}
+
+.previewBtnPP {
+  border-radius: 1vw;
+  border: none;
+  background-color: #12c2e9;
+  color: white;
+  padding: 0 3rem 0 3rem;
+}
+
+.thirdColumnPP {
+  width: 25rem;
+  margin: 2rem 2rem 2rem 15rem;
+}
+
+.thirdColumnPP > button {
+  border-radius: 20px;
+  border: 2px solid #12c2e9;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  color: #12c2e9;
+  background-color: white;
+}

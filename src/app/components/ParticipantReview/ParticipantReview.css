@@ -1,0 +1,39 @@
+.ParticipantReviewWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 0 0 5vh;
+  width: 78vw;
+  height: 68vh;
+}
+
+.ObjectiveWrapper>h5 {
+  color: #12c2e9;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+
+.ObjectiveWrapper>p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-left: 1vw;
+}
+
+.product-details>button {
+  border-radius: 7px;
+  /* height: 37px; */
+  /* width: 140px; */
+  padding: 1vh 3vw 1vh 3vw;
+  background-color: #12c2e9;
+  color: white;
+  border: white;
+}
+
+.product-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

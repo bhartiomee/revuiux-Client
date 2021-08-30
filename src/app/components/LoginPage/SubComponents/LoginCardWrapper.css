@@ -1,0 +1,167 @@
+.loginSideWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 20px 5px #e5e5e5;
+  width: 40%;
+  height: 80vh;
+  border-radius: 15px;
+}
+.loginSideWrapper > h2 {
+  font-weight: 500;
+  color: #12c2e9;
+  text-align: center;
+}
+
+.emailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.emailContainer > input {
+  box-shadow: 0px 0px 18px 1px #e5e5e5;
+  border-radius: 3px;
+  border: 1px white;
+  border-left: 4px solid #12c2e9;
+  margin: 3%;
+  padding: 3%;
+  width: 100%;
+  outline: none;
+}
+
+.loginButtonWrapper > button {
+  border-radius: 10px;
+  padding: 0.5rem 4.5rem 0.5rem 4.5rem;
+  background-color: #12c2e9;
+  color: white;
+  border: none;
+  box-shadow: 8px 8px 18px 1px #e5e5e5;
+  margin: 0.5rem;
+}
+
+.checkboxWrapper {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkboxWrapper > h5 {
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 0.7vw;
+}
+.checkboxWrapper > input {
+  width: 25px;
+  outline: none;
+}
+.SignUpTextWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignUpTextWrapper > h5 {
+  font-weight: 300;
+  font-size: 15px;
+}
+.SignUpText {
+  color: #0048a9;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+/* start of forgot password */
+.forgot-password-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 95vw;
+  height: 90vh;
+}
+
+.fpass-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 5px #e5e5e5;
+  width: 50vw;
+  height: 50vh;
+  padding: 1.5rem;
+}
+
+.fpass-input {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 5rem 0.7rem 0rem;
+}
+
+.fpass-input > input {
+  box-shadow: 0px 0px 18px 1px #e5e5e5;
+  border-radius: 3px;
+  border: 1px white;
+  border-left: 4px solid #12c2e9;
+  padding: 0.7rem;
+  margin: 0.5rem 1rem 0.1rem 0rem;
+  outline: none;
+}
+.fpass-input > p {
+  font-size: 12px;
+  color: #828282;
+}
+
+.fpass-input > label {
+  font-weight: 300;
+}
+
+.reset-input {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 1rem 8rem 0 0;
+}
+
+.individual-input > input {
+  box-shadow: 0px 0px 18px 1px #e5e5e5;
+  border-radius: 3px;
+  border: 1px white;
+  border-left: 4px solid #12c2e9;
+  padding: 0.7rem;
+  width: 20rem;
+  margin: 0.5rem 1rem 0.5rem 1.5rem;
+  outline: none;
+}
+
+.individual-input > label {
+  font-weight: 300;
+}
+
+.reset-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+
+.reset-buttons > button {
+  border-radius: 15px;
+  padding: 0.8rem 2.1rem 0.8rem 2.1rem;
+  background-color: #12c2e9;
+  color: white;
+  border: none;
+  box-shadow: 8px 8px 18px 1px #e5e5e5;
+}
+
+.verification-button > button {
+  border-radius: 15px;
+  padding: 0.8rem 2.1rem 0.8rem 2.1rem;
+  background-color: #12c2e9;
+  color: white;
+  border: none;
+  box-shadow: 8px 8px 18px 1px #e5e5e5;
+}
+/* end of forgot password */

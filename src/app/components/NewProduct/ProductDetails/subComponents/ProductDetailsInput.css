@@ -1,0 +1,48 @@
+/* Start of Product Details Input */
+
+.input-wrapper-product {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+}
+
+.input-form-column{
+  width: 50%;
+}
+
+.default-input-product {
+  width: 80%;
+  height: 40px;
+  padding-left: 1%;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 6px;
+  outline: none; 
+}
+
+.default-input {
+  width: 20vw;
+  height: 5vh;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 6px;
+  padding-left: 1%;
+  outline: none;
+}
+
+.input-wrapper-product > input {
+  box-shadow: 2px 3px 10px 2px #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+.input-wrapper-product > select {
+  box-shadow: 2px 3px 10px 2px #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+/* End of Product Details Input */

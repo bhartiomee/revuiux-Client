@@ -1,0 +1,38 @@
+.navigaton {
+  display: flex;
+  flex-direction: row;
+}
+.new-product {
+  width: 84%;
+  padding: 1rem 0 0 3rem;
+}
+.lower-nav-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+.lower-nav-buttons > button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.save-button{
+  background-color: #12c2e9;
+  color:white;
+  border: none;
+}
+
+.prev-button, .next-button{
+  background-color: white;
+  color:#12c2e9;
+  border: none;
+}
+.cancel-button{
+  background-color: white;
+  color:#12c2e9;
+  border: 2px solid #12c2e9;
+}

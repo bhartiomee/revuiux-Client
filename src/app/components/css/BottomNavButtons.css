@@ -1,0 +1,38 @@
+.BottomNavButtonsWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.icon-btn {
+    display: flex;
+    color: #12C2E9;
+    cursor: pointer;
+}
+.icon-btn p{
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+.bottom-nav-btn {
+    border-radius: 10px;
+    height: 35px;
+    width: 90px;
+    text-align: center;
+}
+
+#bottom-save-btn {
+    background: #12C2E9;
+    color: white;
+    border: none;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.15));
+}
+
+#bottom-cancel-btn {
+    color: #12C2E9;
+    background: #FFFFFF;
+    border: 2px solid #12C2E9;
+    box-sizing: border-box;
+    font-weight: 600;
+}

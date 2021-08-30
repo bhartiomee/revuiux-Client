@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.detailed-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 45px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  width: 100%;
+  padding: 12px 4px 0 20px;
+  background-color: grey;
+  flex: 0 0 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-bar {
+  flex: 0.04;
+}
+.left-bar-content {
+  top: 0;
+  width: 4%;
+  bottom: 0;
+  position: fixed;
+  background-color: #12c2e9;
+}

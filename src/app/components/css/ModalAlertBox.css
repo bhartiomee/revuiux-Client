@@ -1,0 +1,30 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 18vh;
+  margin-left: 28vw;
+}
+
+.display-block {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+.modal > button {
+  border: 2px solid #12c2e9;
+  border-radius: 1vw;
+  background-color: #12c2e9;
+  box-shadow: 5px 8px 15px 4px #c4bebe;
+  font-size: 1rem;
+  padding: 12px;
+  color: white;
+}

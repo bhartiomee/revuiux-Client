@@ -1,0 +1,35 @@
+.PrototypePreviewPageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 90vh;
+}
+
+.all-components-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+#review-para {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 15px;
+    padding: 0rem 5rem;
+}
+
+#review-number {
+    align-self: flex-end;
+    padding-right: 5rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+
+#review-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

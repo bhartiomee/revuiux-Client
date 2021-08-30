@@ -1,0 +1,11 @@
+#bottom-prev-btn{
+    color: #C4C4C4;
+    border: 2px solid #C4C4C4;
+    background-color: white;
+}
+
+#bottom-next-btn{
+    color: #12C2E9;
+    border: 2px solid #12C2E9;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.15));
+}

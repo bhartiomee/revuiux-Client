@@ -1,0 +1,30 @@
+.productHeaderWrapper {
+    display: flex;
+    margin-top:16.95px;
+    margin-bottom: 16.95px;
+    margin-left: 43.75px;
+}
+
+.menu-list {
+    text-decoration: none;
+    color: #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0px 7px 6.5px 6.5px;
+}
+a.menu-list{
+    font-size: 14px;
+}
+a.menu-list:hover{
+    color: #BDBDBD;
+}
+
+.active-class {
+    color: #12C2E9;
+    border-bottom: 1px solid #12C2E9;
+}
+a.active-class:hover{
+    color: #12C2E9;
+}

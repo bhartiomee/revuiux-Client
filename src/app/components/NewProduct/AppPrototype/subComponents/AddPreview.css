@@ -1,0 +1,46 @@
+.outerDivAddPrvw {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.LeftDivAddPrvw {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 0.5vw;
+  align-items: center;
+  background-image: url('../../../../../Assets/image/imgPrvw.png');
+  background-repeat: no-repeat;
+  background-size:2rem;
+  object-fit: cover;
+  background-position: center;
+}
+
+.rightDivAddPrvw {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  width: 30vw;
+  margin-left: 1rem;
+}
+
+.rightDivAddPrvw > input {
+  display: flex;
+  border: 2px solid #b3b9bb;
+  border-radius: 0.6vw;
+  outline: none;
+}
+
+.rightDivAddPrvw > button {
+  align-self: flex-end;
+  border-radius: 3px;
+  border: none;
+  background-color: #12c2e9;
+
+  width: 5rem;
+  margin-top: 1.5rem;
+  color: white;
+}

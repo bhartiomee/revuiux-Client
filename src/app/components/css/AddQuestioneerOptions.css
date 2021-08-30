@@ -1,0 +1,45 @@
+.OptionsWrappper {
+    align-items: flex-start;
+    padding-left: 10%;
+    width: 17rem;
+    height: 9rem;
+}
+.OptionsWrappper p{
+    margin-bottom: 0.5rem;
+}
+
+.options-list {
+    font-weight: 100;
+    border-radius: 4px;
+    margin-top: 0;
+}
+
+.options-heading-none {
+    display: none;
+}
+
+.options-heading {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+.questioneer-options-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.options-list-item {
+   font-size: 14px;
+    color: #BDBDBD;
+    border: transparent;
+    background: transparent;
+    height: 1.5rem;
+    border-bottom: 1px solid #BDBDBD;
+    cursor: pointer;
+    padding: 1px 1px;
+    resize: none;
+    color: black;
+
+}

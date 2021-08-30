@@ -1,0 +1,20 @@
+.page-header {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-right: 1vw;
+    text-align: center;
+}
+  
+.page-header > h3 {
+    display: flex;
+    border-bottom: 1px solid #d3cfcf;
+    align-items: flex-end;
+    justify-content: left;
+    font-size: 1rem;
+    color: black;
+    padding-left: 8px;
+    font-weight: 500;
+    margin: 0;
+}

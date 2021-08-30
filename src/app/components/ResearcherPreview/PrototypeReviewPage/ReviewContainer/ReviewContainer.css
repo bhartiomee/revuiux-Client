@@ -1,0 +1,121 @@
+.outer-review-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    width: 72vw;
+    height: 70vh;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+.reviewImgwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem 1rem;
+}
+
+.reviewImgwrapper p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+}
+
+.review-img-container {
+    height: 25rem;
+    background: #D9D9D9;
+    border: 1.21999px solid #757575;
+    box-sizing: border-box;
+    box-shadow: 0px 2.43997px 12.1999px rgba(0, 0, 0, 0.1);
+    border-radius: 9.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.review-img-container >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 9.7px;
+}
+
+
+.review-decription-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 3rem;
+}
+
+.comments-container p {
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.commmon-outer-divs {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    color: #BDBDBD;
+}
+.commmon-outer-divs textarea{
+    resize: none;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    border: none;
+}
+
+
+#review-answer-div {
+    border-radius: 8px;
+    height: 9rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+#choose-file-div {
+    border-radius: 5px;
+    padding: 2px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.choose-file-btn {
+    background: #12C2E9;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#choose-file-div>small {
+    font-size: 0.73em;
+}
+
+.save-review-btn {
+    background: #12C2E9;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    margin-top: 3rem;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 13px;
+    color: white;
+    border: none;
+    align-self: flex-end;
+}

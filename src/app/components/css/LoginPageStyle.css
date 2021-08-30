@@ -1,0 +1,41 @@
+.survey-question > label {
+  margin-right: 1vw;
+}
+.survey-question > input {
+  background: #c4c4c4;
+  border-radius: 4px;
+  width: 800px;
+  outline: none;
+}
+
+.survey-question{
+  display: flex;
+  flex-direction: row;
+}
+
+.survey-text-area {
+  border-radius: 4px;
+  width: 50vw;
+  height: 10vh;
+  outline: none;
+  border-radius: 7px;
+  resize: none;
+  padding: 5px;
+}
+
+.survey-options {
+  margin-left: 40px;
+}
+.options > label {
+  margin-left: 1%;
+}
+
+.review-options{
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+}
+.review-options > input{
+  margin-right: 0.7rem;
+}
+
+/* Survey Question Page end */

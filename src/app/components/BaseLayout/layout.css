@@ -1,0 +1,14 @@
+.side-bar {
+    width: 5vw;
+    height: 100vh;
+    background-color: #12C2E9
+}
+
+.logo-image {
+    display: block;
+    background-image: url('../../../Assets/image/Logo.png');
+    width:30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin: 5px 10px 0 7px;
+}

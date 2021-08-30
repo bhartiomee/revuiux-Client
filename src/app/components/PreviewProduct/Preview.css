@@ -1,0 +1,40 @@
+/* Survey Question Page start */
+.survey-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 0 1rem;
+    height: 90vh;
+    width: 70vw;
+    overflow: auto;
+  }
+
+.survey-wrapper-prototype{
+  display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 0 1rem;
+    width: 78vw;
+    overflow: auto;
+}
+.survey-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.back-button > button{
+  background-color: white;
+  color: #12C2E9;
+  border: none;
+  box-shadow: none;
+}
+
+.preview-list{
+  padding: 1rem 0 0 2rem;
+}
+
+.prototype-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.prototype-container> h6{
+  text-align: right;
+}

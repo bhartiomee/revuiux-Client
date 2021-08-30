@@ -1,0 +1,22 @@
+.outerMostDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1vh;
+}
+.upperDivAddProto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lowerDivAddProto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 45vh;
+  overflow: auto;
+  width: 60vw;
+}
+.lowerDivAddProto::-webkit-scrollbar {
+  display: none;
+}

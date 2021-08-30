@@ -1,0 +1,90 @@
+.signup-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+/* Start of UserSignUpA */
+
+.signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.signup-heading {
+  text-align: center;
+  padding: 1%;
+  width: 100%;
+}
+
+.signup-heading > h3 {
+  color: #12c2e9;
+}
+
+.signup-heading > h5 {
+  margin: 1%;
+}
+
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.signup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button > button {
+  margin-top: 1rem;
+  border: none;
+  padding: 1rem 3rem 1rem 3rem;
+  color: white;
+  background-color: #12c2e9;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 5px 8px 15px 4px #e5e5e5;
+}
+
+.logo-image-signup {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.textArea-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 3% 0 3% 0;
+}
+
+.textArea-div > input {
+  width: 21.2vw;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.textArea-div > textarea {
+  width: 21.2vw;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* End of UserSignUpA */

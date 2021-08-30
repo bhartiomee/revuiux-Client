@@ -1,0 +1,33 @@
+.addQuestioneerWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.addQuestioneerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  height: 90vh;
+}
+
+.question-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.questionWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-caption {
+  margin-left: 9%;
+}
+
+.addedQuestions-container {
+  display: flex;
+  height: 7rem;
+  flex-direction: column;
+  overflow-y: auto;
+}

@@ -1,0 +1,20 @@
+/* Start of homepage */
+
+.home-page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-product{
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-product > h2,h4 {
+  text-align: center;
+  color: rgba(136, 136, 136, 0.815);
+}
+/* End of homepage */

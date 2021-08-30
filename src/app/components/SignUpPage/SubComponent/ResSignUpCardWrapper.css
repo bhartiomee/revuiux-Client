@@ -1,0 +1,42 @@
+.SignUpWrapper {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  width: 50%;
+}
+.WelcomeWrapper {
+  color: #12c2e9;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5% 5% 1% 5%;
+}
+.WelcomeWrapper > h4 {
+  color: black;
+}
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ButtonWrapper > button {
+  border-radius: 8px;
+  background-color: #12c2e9;
+  color: white;
+  border: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+
+  padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+}
+.default-textarea {
+  width: 20vw;
+  height: 10vh;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 6px;
+  padding: 0.5rem;
+  outline: none;
+}

@@ -1,0 +1,28 @@
+.survey-btn {
+  border: none;
+  background: #12C2E9;
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  margin: 3%;
+}
+
+.participant-survey{
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 0 0 5vh;
+  width: 78vw;
+  height: 68vh;
+  overflow: auto;
+}
+
+.participant-survey-questions{
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 0 0 5vh;
+  width: 78vw;
+  height: 85vh;
+  overflow: auto;
+}

@@ -1,0 +1,16 @@
+.review-heading {
+    font-weight: 100;
+    font-size: 1.1rem;
+    padding: 14px 41px;
+}
+
+.product-list-div {
+    display: flex;
+    padding-left: 2.5rem;
+}
+
+.product-list-div h3 {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0rem 0.5rem;
+}

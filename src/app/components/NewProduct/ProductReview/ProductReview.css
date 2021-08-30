@@ -1,0 +1,43 @@
+.reviewProd-outer-wrapper{
+    display: flex;
+    flex-direction:column;
+    width:80vw;
+    height:90vh;
+    overflow-y: auto;
+    padding:1vw;
+}
+.heading-wrapper{
+    padding:0.1vw 0 0.4vw 6vw;
+}
+.reviewData-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.data-column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0vw 0vw 1vw 1vw;
+    align-content: space-around;
+}
+.data-tab{
+    width:10vw;
+    align-items: center;
+    padding:0.1vw 0vw 0vw 0.1vw;
+}
+.dataEmail
+{
+    width:20vw;
+}
+.dataName{
+    width:15vw;
+}
+.border-bottom{
+    border-bottom:1px solid #E5E5E5;
+}
+
+.links {
+    cursor: pointer;
+}

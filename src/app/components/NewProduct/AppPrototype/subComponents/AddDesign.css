@@ -1,0 +1,50 @@
+.outerDivAddDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.upperDivAddDesign {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  border: 2px solid #b3b9bb;
+  border-radius: 0.6vw;
+}
+.upperDivAddDesign > label {
+  color: #fff;
+  padding: 0.2vw 1.2vw 0.2vw 1.2vw;
+  border-radius: 5px;
+  margin: 0.1rem;
+  background: #12c2e9;
+  cursor: pointer;
+}
+
+.lowerDivAddDesign > input {
+  width: 50vw;
+  padding: 0.3rem;
+  border-radius: 0.6vw;
+  border: 2px solid #b3b9bb;
+  outline: none;
+}
+.lowerDivAddDesign {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.3%;
+  /* margin-bottom: 0.1%; */
+}
+.lowerDivAddDesign > .MuiSvgIcon-root {
+  color: green;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 32px;
+}
+
+.saveButtonDesign {
+  width: 6rem;
+  border-radius: 5px;
+  border: 2px solid #12c2e9;
+  background-color: #12c2e9;
+  font-size: 1rem;
+  margin-left: 1.5%;
+  color: white;
+}

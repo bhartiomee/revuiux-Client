@@ -1,0 +1,85 @@
+/* start of repo container */
+
+.repo-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 95vw;
+}
+
+.repo-column {
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+  min-height: 95vh;
+  padding-top: 15px;
+  background-color: white;
+  border-right: 1px solid #e0e0e0;
+}
+
+.options-wrapper {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.recent-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  /* background-color: slateblue; */
+}
+
+.recent-wrapper > .MuiSvgIcon-root {
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.recent-wrapper > h3 {
+  padding: 2px 0 0 7px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.draft-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 52px;
+  cursor: pointer;
+  padding: 10px;
+}
+.draft-wrapper-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.draft-wrapper-icon > .MuiSvgIcon-root {
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.draft-wrapper-icon > h3 {
+  padding: 2px 0 0 7px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.product-item > h3 {
+  padding: 2px 0 0 7px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* end of repo container */
